@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meta_tags</title>
+	<meta charset = "UTF8"> 
+
+	<meta 
+		name = "title"
+		content = "Page Title">
+
+	<meta 
+		name = "description"
+		content = "Meta element intro">
+
+	<meta 
+		name = "author"
+		content = "John">
+
+	<meta 
+		name = "robots"
+		content = "NOINDEX, NOFOLLOW">   
+
+		
+</head>
+<body>
+	<div> 
+		Meta tags do:
+		<ul>
+			<li> Some specific data will display in search engine results </li>
+			<li> Some of the tags will help improwe the pages SEO </li>
+			<li> Are used to provide information to all sorts of clients </li>
+			<li> Google will ignore meta tags it doesn't recognize </li>
+			<li> Are added to the head of nearly every web page </li>
+		</ul>
+	</div>
+
+	<div> 
+		Meta tags:
+		<ul>
+			<li> charset - declare character encoding of particular page </li>
+			<li> name= </li>
+			<ul>
+				<li> "description" content="Short summary" </li>
+				<li> "keyword" content="HTML, XHTML, web terms" . Today is almost unused. </li>
+				<li> "author" content="xyz". No effect in SEO. Some CMS use it. </li>
+				<li> "robots" content= </li>
+				<ul>
+					<li> "none" - equivalent to "noindex" and "nofollow"</li>
+					<li> "noimageindex" - crawlers not index any image on page</li>
+					<li> "noarchive" - do not cache content of this page </li>
+					<li> "nocache" - same as "noarchive"</li>
+					<li> "nosnippet" </li>
+					<li> "nodp" </li>
+				</ul>
+			</ul>
+			<li> http-enquiv= </li>
+			<ul>
+				<li> "refresh" content="30" . Refresh page every 30 secs </li>
+				<li> "refresh" content="30, URL=page.html" . Redirect to page.html after some time better: script window.location = "http://page.com" </li>
+				<li>  refresh attributes: </li>
+				<ul> 
+					<li> content-language specify default language. Better use "lang" </li>
+					<li> content-security-policy specify content policy of current page </li>
+					<li> content-type - now charset </li>
+					<li> set-cookie - now http header Set-cookie </li>
+				</ul>
+			</ul>
+
+		</ul>
+	</div>
+
+</body>
+</html>
