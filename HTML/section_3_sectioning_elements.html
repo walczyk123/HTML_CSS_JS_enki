@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sectioning elements</title>
+
+	<style type="text/css">
+		.shadowbox {
+			font-family: Arial, sans-serif;
+			font-size: 1.5em;
+			width: 300px;
+			border: 5px solid #333;
+			box-shadow: 4px 4px 5px #bbb;
+			border-radius: 10px;
+			padding: 0px 20px;
+			background-image: linear-gradient(150deg,#f00,#0f0 90%, #cfa)
+		}
+
+		.underline {
+			border-bottom: 1px solid;
+		}
+
+	</style>
+</head>
+<body>
+	<ul class = "underline">
+		<li> div - content division, container for text and images </li>
+		<li> nav - used to group navigation of page. There can be multiple nav elements. Also important for screen readers </li>
+		<li> header - for introductory content </li>
+		<li> footer - footer of whole document, there can be multiple footer elements </li>
+		<li> article - </li>
+		<li> main - main content of web page, document or app, there should be only one main element </li>
+
+	</ul>
+
+	Div for text:
+	<div class="shadowbox">
+		<p> text texttexttexttext</p>
+		<p>content content contentcontent content contcontent content contcontent content cont</p>
+	</div> 
+
+	Single header:
+	<header class = "underline">
+		<h1>logo</h1>
+	</header>
+
+	Multiple headers:
+	<article class = "underline">
+		<header>
+			<h1>header1</h1>
+		</header>
+		<p>content content contentcontent content contcontent content contcontent content cont</p>
+		<header>
+			<h1>header2</h1>
+		</header>
+		<p>content content contentcontent content contcontent content contcontent content cont</p>
+	</article>
+
+	Main:
+	<main class = "underline">
+
+		Artic1
+		<article>
+			<header>
+				<h1>header1</h1>
+			</header>
+			<p>content content contentcontent content contcontent content contcontent content cont</p>
+			<header>
+				<h1>header2</h1>
+			</header>
+			<p>content content contentcontent content contcontent content contcontent content cont</p>
+		</article>
+
+		Artic2:
+		<article>
+			<header>
+				<h1>header1</h1>
+			</header>
+			<p>content content contentcontent content contcontent content contcontent content cont</p>
+			<header>
+				<h1>header2</h1>
+			</header>
+			<p>content content contentcontent content contcontent content contcontent content cont</p>
+		</article>
+
+	</main>
+
+	Nav:
+	<nav class = "underline">
+		<a href="#"> Sweet </a>
+		<a href="#"> Home </a>
+		<a href="#"> Alabama </a>
+	</nav>
+
+	Footer:
+	<footer>
+		<p> example footer </p>
+		<a href="#"> Alabama </a>
+	</footer>
+
+</body>
+</html>
