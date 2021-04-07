@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formating HTML elements</title>
+	<style type="text/css">
+		.brand-color {
+			font-size: 1.5em;
+			color: #6c5;
+		}
+
+		hr {
+			display: block;
+			margin: 0.5em auto 0.3em auto;
+			border-style: inset;
+			border-width: 1px;
+		}
+	</style>
+</head>
+<body>
+	<span class="brand-color"> span is used to style inline elements </span>
+	<div> div is used as block element </div>
+	<hr> hr is used to create thematic break between paragraphs <hr>
+	<form action="/" method="post">
+		<button>
+			CLICK
+			<img src="https://png.pngtree.com/png-vector/20200822/ourlarge/pngtree-game-play-button-design-png-image_2331659.jpg" style="width: 2em; padding-bottom: -1em">
+		</button>
+		<input type="submit">
+	</form>
+	<div>  Button attributes:
+		<ul>
+			<li> value - initial value of button </li> 
+			<li> disabled -display disabled button </li> 
+			<li> form - used to associate button with form, form value must be the same as id of the form</li> 
+			<li> name - gives button a name, submited with forms data </li> 
+			<li> type - type of button: </li> 
+			<ul>
+				<li> submit - submit forms data to the server (default if not set)</li>
+				<li> reset - reset values in form </li>
+				<li> button - when you want to trigger some scripts</li>
+			</ul>
+		</ul>
+	</div>
+
+
+</body>
+</html>
