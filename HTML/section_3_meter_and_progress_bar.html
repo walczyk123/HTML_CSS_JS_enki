@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meter and progress bar</title>
+</head>
+<body>
+	<div>
+		<meter min="0" low="10" value="22" optimum="24" high="35" max="55">Temperature</meter>
+
+		<div> Meter attributes
+			<ul>
+				<li> form 	- is used to associate meter with form element. The form is owner of meter. </li>
+				<li> min 	- minimum value of the meter. Default is 0, must be lower than max.</li>
+				<li> low 	- specifies value considered as low. It must be higher than min and smaller than high and max.</li>
+				<li> optimum- optimum value that must be in range from min to max. </li>
+				<li> value 	- current attribute value. Must be in range from min to max. If is out ouf this boundaries, it takes the closest min or max value.</li>
+				<li> high 	- specifies value considered as high. It must be higher than min and low, but smaller than max. If value is greater than max, then it takes max value</li>
+				<li> max 	- max value of the meter, default value is 1. Must be higher than min. </li>
+			</ul>
+		</div>
+	</div>
+	<div> Progress element - has max and value attributes
+		<progress max="100" value="25">25%</progress>
+	</div>
+</body>
+</html>
