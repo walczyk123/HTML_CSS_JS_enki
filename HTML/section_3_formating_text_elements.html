@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formating text elements</title>
+	<style type="text/css">
+		.wider-gap{
+			margin-top:30px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li> 
+			&lt;br&gt; - line break, used to break line in webpage or document. Doesn't have a closing tag. <br>
+			Shouldn't be used to separate paragraphs or create gaps between text. <br>
+			To made large gaps css style should be used 
+			<p class="wider-gap"> Like this margin-bottom: 30px; attribute </p>
+		</li>
+		<hr>
+		<li>
+			&lt;i&gt;  - italic. Sets part of text in italic tone. eg.: foregin language phrases, terms, thoughts etc...   <br>
+			&lt;em&gt; - emphasis. Used to stress emphasis on piece of text or read by person or software. &lt;em&gt; can be nested in itself.   <br>
+			&lt;cite&gt; - cite element. For adding a name of something, like a movie  
+		</li>
+		<hr>
+		<li> 
+			&lt;b&gt;  - blodface element, bring attention to, is used to bring reader attention. It can be used to important thing on list.  <br>
+			&lt;strong&gt; - strong importance element. It can be used to warning signs.  <br>
+			Both of element have style font-weight:bold;
+		</li>
+		<hr>
+		<li>
+			&lt;sub&gt;  - subscript element, used to display text as a subscript, bellow the line. <br>
+			<sub> 
+				Style: vertical-align: sub; <br> 
+				vertical-align: -25px; 
+			</sub>
+			Normal text for comparasion
+			<p class="wider-gap"></p>
+
+			&lt;sup&gt;  - superscript element, used to display text above the line.  <br>
+			<sup> 
+				Style: vertical-align: sup; <br> 
+				vertical-align:50px; 
+			</sup>
+			Normal text for comparasion
+
+		</li>
+		<hr>
+		MathML - Mathematical Markup Language
+		<li>
+			&lt;msub&gt;   <br>
+			&lt;msup&gt;   <br>
+			&lt;msubsup&gt;   <br>
+		</li>
+		<hr>
+		<li>
+			&lt;s&gt; - striketrough text element. Used to specify that some text is no longer correct. <s> Like this one </s> <br>
+			&lt;ins&gt; - inserted text, for indicate that some text has been added do the document <ins> inserted text </ins> <br>
+			&lt;del&gt; - deleted text. Specify that some text has been deleted <del> deleted text </del> <br>
+			Del and ins has the same, two attributes:
+			<ul>
+				<li> cite - specify url with explanation of changes </li>
+				<li> datetime - indicates time of change in YYMMDD format</li>
+			</ul>
+		</li>
+		<hr>
+		<li>
+			&lt;mark&gt; - mark text element- used to mark or highlight some text. Used commonly to indicate important to user info. <br>
+			Default mark style is <mark> background-collor: yellow; </mark>. When mark is used in &lt;q&gt; or &lt;blockquote&gt; element indicates important text. <br>
+			&lt;u&gt; - unarticulated annotation element - indicates that some text should be rendered differently than non-textual annotation. Usualy rendered as <u> underlined </u> <br>
+			with css style <br>
+			text-decoration: underline;  <br>
+			text-decoration: #f00 wavy underline; <br>
+		</li>
+	</ul>
+
+
+
+</body>
+</html>
