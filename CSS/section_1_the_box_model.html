@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Box Model</title>
+	<style>
+		#box{
+			width: 600px;
+			height: 200px;
+			border: 4px solid blue;
+			margin: 20px;
+			padding: 10px;
+		}
+		#pdng-box{
+			box-sizing: padding-box;
+			width: 500px;
+			height: 300px;
+			padding: 30px;
+			background: #DDD;
+			border: 2px dashed red;
+		}
+	</style>
+</head>
+<body>
+	<div id="box"> Box model properties
+		<ul>
+			<li> width - sets width of content, sumarry width is sum of margins, border, paddings and content</li>
+			<li> height - same as width</li>
+			<li> margin - sets space outside border. Can be set individualy to top, left, right or bottom. Shorthand: top, right, bottom, left </li>
+			<li> padding - space inside border, but outside content, has the same properties as margin.</li>
+			<li> border - occupy space between padding and margin. Has properties</li>
+			<ul>
+				<li>border-width</li>
+				<li>border-style i.e. dotted, dashed, double, solid</li>
+				<li>border-color</li>
+			</ul>
+			<li>box-sizing - sets outer limit of the element, default is content-box, but can set dimensions to padding or border as well.</li>
+		</ul>
+	</div>
+	<div>
+		<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png">
+	</div>
+
+	<hr>
+
+	<div id="pdng-box">
+		box-sizing: padding-box
+	</div>
+
+	<hr>
+
+	<div>
+		display
+		<ul>
+			<li> inline - can be part of block element and other inline elements. Doesnt accept top and bottom padding or margin. </li>
+			<li> block - ocuppies whole width of page, doesnt allow other elements to be on left or right.</li>
+			<li> inline-block - creates block element that alco can be inline  </li>
+			<li> none - browser wont render element like it doesn't exists</li>
+		</ul>
+
+	</div>
+
+
+</body>
+</html>
