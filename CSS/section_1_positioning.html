@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning</title>
+	<style type="text/css">
+		#box1{
+			width: 200px;
+			height: 200px;
+			background: #DDD;
+			border: 1px solid red;
+		}
+		#box2{
+			width: 200px;
+			height: 200px;
+			background: #CCC;
+			border: 1px solid blue;
+			position: relative;
+			left: 20px;
+			top: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div> Block elements allways begin on a new line and height, line-height, top-margin, bottom-margin can be specified. Example block elements:
+		<ul>
+			<li> div </li>
+			<li> p </li>
+			<li> h1 </li>
+			<li> form </li>
+			<li> ul and li</li>
+		</ul>		
+	</div>
+
+	<hr>
+
+	<div> Inline elements begins on the same line as siblings. Height, line-height, top-margin, bottom-margin cannot be set. Example inline elements:
+		<ul>
+			<li> span </li>
+			<li> a </li>
+			<li> label </li>
+			<li> input </li>
+			<li> img </li>
+			<li> strong </li>
+			<li> em </li>
+		</ul>
+	</div>
+
+	<hr>
+
+	<div> Inline-block elements are inline elements that can accept some block properties. It can fit on the same line as inline or other inline-block elements. <i>Height, line-height, top-margin</i> and <i> bottom-margin </i> can be set. Default width is 100% but also can be changed if needed. Example:
+		<ul>
+			<li> img </li>
+			<li> video </li>
+			<li> input </li>
+			<li> textarea </li>
+		</ul>
+	</div>
+
+	<hr>
+
+	<div> Positioning elements:
+		<ul>
+			<li> Relative positioning </li>
+			<li> absolute positioning </li>
+			<li> floating </li>
+		</ul>
+		By default every element has set position value static, but static elements doesn't accept any box offset - top, right, left, bottom. To set this properties position must be <i>relative</i> or <i>absolute</i>
+		<div id="box1">Box1</div>
+		<div id="box2">Box2</div>
+	</div>
+</body>
+</html>
