@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media</title>
+
+	
+</head>
+<body>
+	<div> The audio element
+		<br>
+		<audio src="audio.mp3" controls>
+			<p> If you see this, your browser doesnt supply <audio> element</p>
+		</audio>
+		<br>
+		More songs via <b>source</b>
+		<br>
+		<audio  controls>
+			<source src="one_song" type="audio/mpeg">
+			<source src="second_song" type="audio/mpeg">
+			<source src="third_song" type="audio/mpeg">
+			<p> If you see this, your browser doesnt supply <audio> element</p>
+		</audio>
+		<br>
+		<b> controls</b> allows the browser to offer UI controls
+		<br>
+		Supported audio formats
+		<ul>
+			<li> WAV</li>
+			<li> MP3</li>
+			<li> M4A</li>
+			<li> MP4</li>
+			<li> OGG</li>
+			<li> ADTS</li>
+			<li> FLAC</li>
+		</ul>
+
+		
+	</div>
+	<hr>
+	<div>
+		The video element
+		<br>
+		<video src="/video/video01.mp4" width="300" height="200" controls=""> 
+			<p> If you see this, your browser doesnt supply <video> element</p>
+		</video>
+		<br>
+		Video subtitles <br>
+		<video src="/video/video01.mp4" controls="">
+			<track kind="subtitles" src="video/subtitles01.vtt" lang="en">
+			
+		</video>
+		<br>
+		More functionalities:
+		<ul>
+			<li> poster - poster when video cant be played or hasnt loaded yet</li>
+			<li> autoplay - plays the video as soon as it's avealible</li>
+			<li> muted - sets default setting of audio part of video</li>
+			<li> loop - loops video to play agin</li>
+		</ul>
+		Video formats:
+		<ul>
+			<li>ogg</li>
+			<li>mp4</li>
+			<li>webm</li>
+		</ul>
+	</div>
+	<hr>
+	<div>
+		Embed element - embed an external application or plug-in to web page
+		<br>
+		<embed type="video/quicktime" src="dancing.mov" width="300" height="200"></embed>
+		<br>
+		<ul>
+			<li> not all mobile devices support plugins</li>
+			<li> many browsers have remove the support for plugins</li>
+
+		</ul>
+	</div>
+	
+	
+
+
+</body>
+</html>
